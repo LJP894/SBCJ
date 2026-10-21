@@ -1,0 +1,27 @@
+# CubeIDE / GCC build outputs
+/Debug/
+/Release/
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+*.lst
+*.list
+
+# Local IDE / toolchain state
+/.metadata/
+/.codex/
+/.cache/
+/.clangd/
+*.log
+
+# TouchGFX local caches (keep generated GUI sources)
+TouchGFX/build/
+TouchGFX/generated/**/cache/
+*.touchgfx.cache
